@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Virat Kohli Fan Club</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Virat Kohli Fan club</h1>
-    <p>This website list the details of all centuries hit by Virat Kohli</p>
-    <hr />
-    <img src="./assets/images/VK.jpg" alt="Virat Kohli's pic after hitting 50th ODI century" height="400" width="500"/>
-    <h3>List of all ODI centuries</h3>
-    <a href="./public/odicentury50.html">50th ODI Century</a><br />
-    <a href="./public/odicentury50.html"><img src="./assets/images/VK_50.jpg" height="200" /></a><br />
-    <p><a href="./public/about.html">About us</a>
-    <a href="./public/contact.html">Contact us</a></p>
+    <div class="vkfc">
+        <div class="vkfc-head">
+            <h1 id="id-selector-heading">Virat Kohli Fan club</h1>
+            <p>This website lists the details of all centuries hit by Virat Kohli</p>
+            <img src="./assets/images/VK.jpg" alt="Virat Kohli's pic after hitting 50th ODI century" class="king-kohli"/>
+        </div>
+        <div class="list-odi">
+            <h3>List of all ODI centuries</h3>
+            <a href="./public/odicentury50.html"><img class="century-pic" src="./assets/images/VK_50.jpg" /></a><br />
+            <a href="./public/odicentury50.html">50th ODI Century</a><br />
+            <hr />
+        </div>
+        <div class="list-odi">
+            <a href="./public/odicentury49.html"><img class="century-pic" src="./assets/images/VK_49.jpg" /></a><br />
+            <a href="./public/odicentury49.html">49th ODI Century</a><br />
+        </div>
+        <div>
+            <p><a href="./public/about.html">About us</a>
+            <a href="./public/contact.html">Contact us</a></p>
+        </div>
+    </div>
+    
 </body>
 </html>

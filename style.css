@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(32, 13, 13);
+}
+
+.vkfc {
+    color: goldenrod;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.vkfc-head {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.king-kohli {
+    border: 5px solid goldenrod;
+    width: 100%;
+}
+
+.list-odi {
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+}
+
+.century-pic{
+    width: 100%;
+    border: 5px solid goldenrod;
+}
